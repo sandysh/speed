@@ -10,6 +10,7 @@
 
 $routes = [
            '' => 'get/IndexController@index',
+           'login' => 'get/Auth/LoginController@index',
             'test' => 'get/TestController@index',
             // 'about/1/sandesh' => 'controllers/AboutController.php@index',
             // 'contact' => 'controllers/ContactController.php@index',

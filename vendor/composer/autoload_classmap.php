@@ -10,7 +10,7 @@ return array(
     'App\\Core\\Load' => $baseDir . '/app/Core/Load.php',
     'App\\Core\\Request' => $baseDir . '/app/Core/Request.php',
     'App\\Models\\Database' => $baseDir . '/app/Models/Database.php',
-    'App\\Models\\Question' => $baseDir . '/app/Models/User.php',
+    'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',

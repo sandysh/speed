@@ -9,6 +9,8 @@ class ComposerStaticInita435c345d3a4b82a0bb46fa2136e030e
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        '07d2fff00919bca3118319815be8049a' => __DIR__ . '/../..' . '/app/Config/Database.php',
+        '0869e63291ed46b848ddb48a0e9f2e8c' => __DIR__ . '/../..' . '/helpers/data.helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -95,7 +97,7 @@ class ComposerStaticInita435c345d3a4b82a0bb46fa2136e030e
         'App\\Core\\Load' => __DIR__ . '/../..' . '/app/Core/Load.php',
         'App\\Core\\Request' => __DIR__ . '/../..' . '/app/Core/Request.php',
         'App\\Models\\Database' => __DIR__ . '/../..' . '/app/Models/Database.php',
-        'App\\Models\\Question' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',

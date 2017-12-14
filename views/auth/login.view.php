@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?= $data['title']; ?></title>
+    <title></title>
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
@@ -15,8 +15,6 @@
         </div>
       </div>
     </nav>
-    <center><h1><?= $data['body']; ?></h1></center>
-    
     <div class="col-md-5 col-md-offset-3" style="margin-top:20px">
         <form class="form-horizontal" method="GET" action="test/post">
           <div class="form-group">
@@ -37,6 +35,6 @@
             </div>
           </div>
         </form>     
-    </div>
+    </div>    
 </body>
 </html>

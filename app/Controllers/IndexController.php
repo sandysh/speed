@@ -14,12 +14,11 @@ class IndexController extends Controller
 
     public function index()
     {
-        dd(User::all());
+        // dd(User::all());
         $data = [
         'title'=> "index page",
-        'body' => "This index page is coming directly from controller",
+        'body' => "Welcome to Speed framework",
         ];
-        // return_response($data);
         $this->load->view('index',$data);
     }
     

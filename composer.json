@@ -4,7 +4,7 @@
             "app/Core"
         ],
         "psr-4": {"App\\": "app/"},
-         "files": ["app/Config/Database.php"]
+         "files": ["app/Config/Database.php","helpers/data.helper.php"]
     },
 
     "require": {

@@ -59,9 +59,18 @@ class Router
             $url = $data[0]; //get path of the controller
             $controller = explode('.',$url);
             $resources = explode('/', $controller[0]);
-            $resource_type = $resources[0];
-            $controller_class = $resources[1];
-            require './app/Controllers/'.$controller_class.'.php';
+            // die(var_dump(($resources)));
+            
+            if(sizeof($resources) > 2){
+                $resource_type = $resources[0];
+                $controller_folder = $resources[1];
+                $controller_class = $resources[2];
+                require './app/Controllers/'.$controller_folder.'/'.$controller_class.'.php';
+            } else {
+                $resource_type = $resources[0];
+                $controller_class = $resources[1];
+                 require './app/Controllers/'.$controller_class.'.php';
+            }
 
             // create new instance of matched controller
             $obj = new $controller_class;
