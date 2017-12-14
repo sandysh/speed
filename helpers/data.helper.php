@@ -3,10 +3,10 @@
 if (!function_exists('dd')) { 
 function dd($data)
 {
-    echo "<pre>";
-    var_dump($data);
-    die();
-    echo "</pre>";
+        echo "<pre>";
+        var_dump($data);
+        die();
+        echo "</pre>";
 }
 }
 
