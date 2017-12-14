@@ -18,7 +18,7 @@
     <center><h1><?= $data['body']; ?></h1></center>
    
     <div class="col-md-5 col-md-offset-3" style="margin-top:20px">
-        <form class="form-horizontal" method="POST" action="post/data">
+        <form class="form-horizontal" method="GET" action="test/post">
           <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
