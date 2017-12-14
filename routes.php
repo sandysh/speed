@@ -4,13 +4,14 @@
 * 
 */
 
-Router::get('/','IndexController@index');
+Router::get('','IndexController@index');
+Router::get('test', 'TestController@index');
 
 // $routes = [
-//             '' => 'controllers/IndexController.php@index',
-//             'post/data' => 'controllers/IndexController.php@postData',
+//            '' => 'Controllers/IndexController.php@index',
+//             'test' => 'Controllers/TestController.php@index',
 //             // 'about/1/sandesh' => 'controllers/AboutController.php@index',
 //             // 'contact' => 'controllers/ContactController.php@index',
-//     ];
+// ];
 
 
