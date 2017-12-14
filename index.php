@@ -8,7 +8,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// $routes = 'routes.php';
-require_once('routes.php');
-
-// Router::load($routes);
+// require_once('routes.php');
+$routes = 'routes.php';
+Router::load($routes);
