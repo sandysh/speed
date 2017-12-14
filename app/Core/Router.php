@@ -47,6 +47,16 @@ class Router
       
     // }
     
+    public function get()
+    {
+        
+    }
+    
+    public function post()
+    {
+        
+    }
+    
     public function redirect($uri,$routes)
     {
         if(array_key_exists($uri, $routes)){

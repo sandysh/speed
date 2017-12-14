@@ -8,7 +8,6 @@ class TestController extends Controller
     function __construct()
     {
         parent::__construct();
-        $this->load->helper('data');
     }
 
     public function index()
@@ -23,7 +22,7 @@ class TestController extends Controller
     
     public function postData()
     {
-        dd($this->request->except('email','password'));
+        dd($this->request->except('submit'));
     }
 }
 

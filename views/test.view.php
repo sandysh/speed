@@ -2,7 +2,7 @@
 <html>
 <head>
     <title><?= $data['title']; ?></title>
-    <link rel="stylesheet" href="assets/css/app.css">
+    <?php load_css('app'); ?>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -18,7 +18,7 @@
     <center><h1><?= $data['body']; ?></h1></center>
     
     <div class="col-md-5 col-md-offset-3" style="margin-top:20px">
-        <form class="form-horizontal" method="GET" action="test/post">
+        <form class="form-horizontal" method="POST" action="test/post">
           <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
@@ -38,5 +38,6 @@
           </div>
         </form>     
     </div>
+    <?php load_js('app'); ?>
 </body>
 </html>

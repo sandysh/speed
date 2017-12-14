@@ -19,3 +19,16 @@ function return_response($data)
 }
 }
 
+function load_css($css)
+{
+    echo "<link rel='stylesheet' href='/assets/css/$css.css'>";
+    // echo APP_URL.'/assets/css/';
+}
+
+function load_js($js)
+{
+    echo "<script type='javascript' src='/assets/js/$js.css'></script>";
+    // echo APP_URL.'/assets/css/';
+}
+
+
